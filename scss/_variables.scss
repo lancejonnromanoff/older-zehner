@@ -1,0 +1,18 @@
+$phone: 480px;
+$tablet: 800px;
+$desktop: 1230px;
+
+@font-face {
+    font-family: "din";
+    src: url(fonts/D-DIN.otf) format("opentype");
+}
+@font-face {
+    font-family: "din-bold";
+    src: url(fonts/D-DIN-Bold.otf) format("opentype");
+}
+$content-font: 'din', 'Roboto Condensed', sans-serif;
+$content-font-bold: 'din-bold', 'din', 'Roboto Condensed', sans-serif;
+$content-text-color: #231f20;
+$accent-color-orange: #ff5e48;
+
+$slider-height: 520px;
